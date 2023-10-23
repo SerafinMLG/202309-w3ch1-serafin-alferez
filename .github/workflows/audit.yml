@@ -41,4 +41,3 @@ jobs:
           checkAllCommitMessages: 'true' # optional: this checks all commits associated with a pull request
 
 
-          
