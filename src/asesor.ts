@@ -1,19 +1,15 @@
 import { Character } from './character';
 
-export class Asesor extends Character {
+export class Advisor extends Character {
   advisor: string;
-  phrasePersonal: string = 'No sé por qué, pero creo que voy a morir pronto';
+  personalQuote: string = 'No sé por qué, pero creo que voy a morir pronto';
 
-  constructor(
-    name: string,
-    family: string,
-    age: number,
-    advise: string,
-  ) {
+  constructor(name: string, family: string, age: number, advise: string) {
     super(name, family, age);
     this.advisor = advise;
   }
+
   phrase() {
-    return super.phrase(this.phrasePersonal);
+    return super.phrase(this.personalQuote);
   }
 }

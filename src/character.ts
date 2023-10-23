@@ -1,4 +1,4 @@
-class character {
+export class Character {
     name: string;
     family: string;
     age: number;
