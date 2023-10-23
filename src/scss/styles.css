@@ -1,7 +1,3 @@
-
-* {
-  box-sizing: border-box;
-}
 body {
   background-color: #b9540c;
   overflow: hidden;
@@ -100,5 +96,3 @@ body {
   right: 5px;
   top: 5px;
 }
-
-
