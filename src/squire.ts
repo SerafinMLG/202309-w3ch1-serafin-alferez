@@ -1,6 +1,6 @@
 import { Character } from './character';
 
-export class King extends Character {
+export class Squire extends Character {
   patron: string = 'Fighter';
   personalQuote: string = "Soy un loser";
   servilityGrade: number;

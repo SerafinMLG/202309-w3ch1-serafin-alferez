@@ -17,6 +17,4 @@ export class Character {
     dead() {
       this.status = false;
     }
-
-
 }
